@@ -1,0 +1,55 @@
+:root{
+    font-size: 18px;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+
+body{
+    font-family: 'Kumbh Sans',sans-serif;
+    color: hsl(0, 11%, 12%);
+}
+
+section{
+    background-color:hsl(185, 75%, 39%);
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+
+.card{
+    width: 370px;
+    background-color: white;
+    border-radius: 20px;
+    overflow: hidden;
+    text-align: center;
+
+}
+
+.card-header{
+    background-image: url(images/bg-pattern-card.svg);
+    background-size: cover;
+    height: 150px;
+
+}
+
+.img{
+    border-radius: 50%;
+    border: 5px solid white;
+    overflow: hidden;
+    width: 110px;
+    height: 110px;
+    margin: -50px auto 30px auto;
+}
+
+.img img{
+    width: 100%;
+    height: auto;
+    display: block;
+}
