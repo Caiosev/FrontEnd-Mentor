@@ -32,6 +32,9 @@ Aqui uma comparação do projeto original com o meu (Original x Meu):
 <div align="center">
   <p></p>
 <p><b>💻Obrigado por ler!💻</p>
+ 
+ 
+ Link: https://caiosev.github.io/FrontEnd-Mentor/Profile%20card%20component/profile-card-component-main/
 </div>
 
 
