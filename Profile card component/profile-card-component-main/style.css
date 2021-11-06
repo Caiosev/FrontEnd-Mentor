@@ -128,14 +128,14 @@ section{
 @media (min-width: 1440px){
 
     .circulos .c1{
-        top: -26%;
-        left: -10%;
+        top: -50%;
+        left: -20%;
         
     }
     
     .circulos .c2{
-       bottom: -50%;
-       right: -5%;
+       bottom: -65%;
+       right: -15%;
     }
 
 }
