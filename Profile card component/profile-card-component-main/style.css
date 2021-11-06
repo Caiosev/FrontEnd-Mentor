@@ -110,15 +110,32 @@ section{
 
 }
 
-.circulos .c1{
-    top: -300px;
-    left: -180px;
+@media (max-width: 375px){
+
+    .circulos .c1{
+       top: -60%;
+       right: 40%;
+        
+    }
     
+    .circulos .c2{
+      top: 47%;
+      left: 39%;
+    }
+
 }
 
-.circulos .c2{
-    bottom: -530px;
-    right: -80px;
+@media (min-width: 1440px){
+
+    .circulos .c1{
+        top: -25%;
+        left: -10%;
+        
+    }
+    
+    .circulos .c2{
+        bottom: -53%;
+        right: -10%;
+    }
+
 }
-
-
