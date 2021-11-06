@@ -12,6 +12,7 @@
 body{
     font-family: 'Kumbh Sans',sans-serif;
     color: hsl(0, 11%, 12%);
+    
 }
 
 section{
@@ -21,14 +22,16 @@ section{
     justify-content: center;
     align-items: center;
     position: relative;
+    overflow: hidden;
 }
 
 .card{
-    width: 370px;
+    width: 395px;
     background-color: white;
     border-radius: 20px;
     overflow: hidden;
     text-align: center;
+    position: relative;
 
 }
 
@@ -52,4 +55,65 @@ section{
     width: 100%;
     height: auto;
     display: block;
+}
+
+.card-body{
+    padding: 0 20px 30px;
+}
+
+.nome-idade{
+    font-size: 1.4rem;
+    margin-bottom: 10px;
+    
+}
+
+
+.cidade,
+.idade,
+.texto{
+    font-weight: 400;
+    color: hsl(0, 11%, 12%);
+    opacity: 0.8;
+}
+
+.texto{
+    font-size: 0.9rem;
+}
+
+.idade{
+    font-weight: 100;
+    font-size: 1.2rem;
+    margin-left: 3px;
+}
+
+.card-footer{
+    border-top: 2px solid hsl(0, 3%, 86%);
+    display: flex;
+    padding: 0 10px;
+}
+
+.card-footer .item{
+    flex:1;
+    height: 100px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.circulos .c1,
+.circulos .c2{
+    position: absolute;
+
+}
+
+.circulos .c1{
+    top: -300px;
+    left: -180px;
+}
+
+.circulos .c2{
+    bottom: -530px;
+    right: -80px;
 }
