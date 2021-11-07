@@ -1,0 +1,62 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+}
+
+body{
+    font-family: 'Red Hat Display', sans-serif; 
+}
+
+
+
+section{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    overflow: hidden;
+    background-color: black;
+}
+
+.card{
+    width: 85vw;
+    background-color: white;
+    border-radius: 20px;
+    overflow: hidden;
+    text-align: center;
+    position: relative;
+    height: 80vh;
+
+}
+
+.card-header img{
+    width: 100%;
+}
+
+.card-body h2 {
+    color: hsl(223, 47%, 23%);
+    font-weight: 900;
+    margin-top: 10%;
+    margin-bottom: 5%;
+}
+
+.card-body p{
+    color:rgb(117, 117, 117);
+    font-weight: 500;
+    margin-left: 8%;
+    margin-right: 8%;
+}
+
+
+/* Pale blue: hsl(225, 100%, 94%)
+- Bright blue: hsl(245, 75%, 52%)
+
+### Neutral
+
+- Very pale blue: hsl(225, 100%, 98%)
+- Desaturated blue: hsl(224, 23%, 55%)
+- Dark blue: hsl(223, 47%, 23%)*/
+
