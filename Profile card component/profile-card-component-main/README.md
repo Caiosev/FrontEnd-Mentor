@@ -13,7 +13,7 @@ Aqui uma comparação do projeto original com o meu (Original x Meu):
 
 <div align="center">
 
-<p>Desktop (Meu monitor: 1920 x 1080)</p>
+<p>Desktop 1440 x 900(Meu monitor: 1920 x 1080)</p>
 <img src="https://res.cloudinary.com/dz209s6jk/image/upload/q_auto:good,w_900/Challenges/tsdyz2ccordcztyrn8m0.jpg" width="1440px"/>
 <img src="https://user-images.githubusercontent.com/79454480/140611929-25ff6900-def6-45b4-9467-03250895fd46.png" width="1440px"/>
 <p></p>
@@ -32,6 +32,9 @@ Aqui uma comparação do projeto original com o meu (Original x Meu):
 <div align="center">
   <p></p>
 <p><b>💻Obrigado por ler!💻</p>
+ 
+ 
+ Link: https://caiosev.github.io/FrontEnd-Mentor/Profile%20card%20component/profile-card-component-main/
 </div>
 
 
