@@ -22,7 +22,7 @@ Aqui uma comparação do projeto original com o meu (Original x Meu):
  <p></p>
 <p>Mobile (375 x 812)</p>
 <p></p>
-<img  src="https://user-images.githubusercontent.com/79454480/141123608-74be3da0-84d6-4c29-8eb2-957cac8e431b.jpg" width="1280px" height="812px"/>  
+<img  src="https://res.cloudinary.com/dz209s6jk/image/upload/q_auto:good,w_900/Challenges/ztdrvzpbcjytdo892pxx.jpg" width="1280px"/>  
 <img  src="https://user-images.githubusercontent.com/79454480/141123895-983f068f-093e-4e51-8023-d066c56855c8.png" width="375px"/>  
 
 </div>
