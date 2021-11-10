@@ -14,7 +14,7 @@ Aqui uma comparação do projeto original com o meu (Original x Meu):
 
 <p>Desktop 1440 x 900(Meu monitor: 1920 x 1080)</p>
 <img src="https://user-images.githubusercontent.com/79454480/141123591-4d6ec502-c570-419a-a293-c898e8f3ae28.jpg" width="1440px"/>
-<img src="https://user-images.githubusercontent.com/79454480/141123907-12022e25-12a3-4bdd-a8cb-cedb68fc5589.png" width="1440px"/>
+<img src="https://user-images.githubusercontent.com/79454480/141125495-ccf628bd-cd57-4706-8f78-a850feae0625.png" width="1440px"/>
 <p></p>
 </div>
 
@@ -23,7 +23,7 @@ Aqui uma comparação do projeto original com o meu (Original x Meu):
 <p>Mobile (375 x 812)</p>
 <p></p>
 <img  src="https://res.cloudinary.com/dz209s6jk/image/upload/q_auto:good,w_900/Challenges/ztdrvzpbcjytdo892pxx.jpg" width="1280px"/>  
-<img  src="https://user-images.githubusercontent.com/79454480/141123895-983f068f-093e-4e51-8023-d066c56855c8.png" width="375px"/>  
+<img  src="https://user-images.githubusercontent.com/79454480/141125483-fa2d6e07-2a3e-4b10-892a-adc3ad4f035a.png" width="375px"/>  
 
 </div>
 
@@ -35,4 +35,3 @@ Aqui uma comparação do projeto original com o meu (Original x Meu):
  
  Link: https://caiosev.github.io/FrontEnd-Mentor/order-summary-component-main/
 </div>
-
