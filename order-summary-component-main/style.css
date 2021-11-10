@@ -18,7 +18,8 @@ section{
     align-items: center;
     position: relative;
     overflow: hidden;
-    background-color:hsl(225, 100%, 98%);
+    background-color: hsl(225, 100%, 98%);
+  
 }
 
 .card{
@@ -28,7 +29,7 @@ section{
     overflow: hidden;
     text-align: center;
     position: relative;
-    height: 68vh;
+    height: 70vh;
 
 }
 
@@ -126,6 +127,28 @@ button{
 
 .btn-secundario:hover{
     color:hsl(223, 47%, 23%) ;
+}
+
+@media(min-width: 1440px){
+    section{
+        background-image: url(images/pattern-background-desktop.svg);
+        background-repeat: no-repeat;
+    
+    }
+
+    .card{
+        width: 30vw;
+        height: 80vh;
+    }
+    
+    .plano{
+        width: 28vw;
+    }
+    button{
+        width: 28vw;
+    }
+
+
 }
 /* Pale blue: hsl(225, 100%, 94%)
 - Bright blue: hsl(245, 75%, 52%)
