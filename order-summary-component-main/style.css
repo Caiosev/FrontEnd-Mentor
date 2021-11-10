@@ -18,7 +18,7 @@ section{
     align-items: center;
     position: relative;
     overflow: hidden;
-    background-color: black;
+    background-color:hsl(225, 100%, 98%);
 }
 
 .card{
@@ -28,7 +28,7 @@ section{
     overflow: hidden;
     text-align: center;
     position: relative;
-    height: 80vh;
+    height: 68vh;
 
 }
 
@@ -80,8 +80,12 @@ section{
 }
 
 .plano-left h4{
-    color:rgb(117, 117, 117);
+    color:#757575;
     font-weight: 500;
+}
+
+.plano a:hover{
+    opacity: 0.8;
 }
 
 .plano-left h3{
@@ -89,7 +93,40 @@ section{
     font-size: 15px;
 }
 
+button{
+    font-family: inherit;
+    border: none;
+    border-radius: 10px;
+    padding: 5px 10px;
+    font-weight: bold;
+    font-size: 16px;
+    cursor: pointer;
+    transition: all 0.2s ease-in-out;
+    width: 80vw;
+    
 
+}
+
+.btn-primario{
+    background-color: hsl(245, 75%, 52%);
+    color: white;
+    padding: 10px;
+    margin-top: 30px;
+}
+
+.btn-primario:hover{
+    opacity: 0.8;
+}
+
+.btn-secundario{
+    background-color: transparent;
+    color:hsl(224, 23%, 55%) ;
+    margin-top: 5px;
+}
+
+.btn-secundario:hover{
+    color:hsl(223, 47%, 23%) ;
+}
 /* Pale blue: hsl(225, 100%, 94%)
 - Bright blue: hsl(245, 75%, 52%)
 
