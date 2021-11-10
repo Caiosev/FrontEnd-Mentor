@@ -138,16 +138,20 @@ button{
 
     .card{
         width: 30vw;
-        height: 80vh;
+        height: 70vh;
+        
     }
     
     .plano{
         width: 28vw;
+        margin-top: 20px;
     }
     button{
         width: 28vw;
     }
-
+    .plano-left{
+        margin-left: -120px;
+    }
 
 }
 /* Pale blue: hsl(225, 100%, 94%)
