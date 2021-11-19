@@ -1,6 +1,5 @@
 # Frontend Mentor - Stats preview card component
 
-(./design/desktop-preview.jpg)
 
 ## Bem-vindo! 👋
 
@@ -38,5 +37,6 @@ Aqui uma comparação do projeto original com o meu (Original x Meu):
 <p><b>💻Obrigado por ler!💻</p>
  
  ⚠️Aviso: O site foi feito somente para as resoluções: (1440x900) e (375x812)⚠️
+  <p></p>
  Link: https://caiosev.github.io/FrontEnd-Mentor/stats-preview-card-component-main/
 </div>
