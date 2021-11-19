@@ -31,6 +31,7 @@ Aqui uma comparação do projeto original com o meu (Original x Meu):
 
 <div align="center">
   <p></p>
+ ⚠️Aviso: O site foi feito somente para as resoluções: (1440x900) e (375x812)⚠️
 <p><b>💻Obrigado por ler!💻</p>
  
  
