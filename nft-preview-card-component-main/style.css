@@ -14,7 +14,7 @@ section{
 }
 
 .card{
-    height: 80vh;
+    height: 65vh;
     background-color:  hsl(216, 50%, 16%);
     width: 65vw;
     margin: 15% auto;
@@ -45,7 +45,7 @@ section{
 
 .texto h4{
     color: white;
-    font-size: 1rem;
+    font-size: 0.8rem;
     font-weight: 300;
 }
 
@@ -54,6 +54,46 @@ section{
     justify-content: space-between;
 }
 
+.eth{
+    display: flex;
+}
+.eth h3{
+    margin: 0 0 0 10px;
+    font-size: 0.8rem;
+    color: hsl(178, 100%, 50%);
+    font-weight: 600;
+}
+
+.eth img{
+    height: 20px;
+    width: 12px;
+}
+.time{
+    display: flex;
+}
+.time img{
+    height: 25px;
+}
+.time h4{
+    margin: 4px 0 0 10px;
+    color: white;
+    font-weight: 300;
+    font-size: 0.8rem;
+}
 .perfil{
     display: flex;
+    margin-top: 20%;
+}
+
+.perfil img{
+    height: 30px;
+    border: 2px solid white;
+    border-radius: 50%;
+}
+
+.perfil h4{
+    font-size: 0.7rem;
+    margin: 10px 0 0 15px;
+    color: white;
+    font-weight: 300;
 }
