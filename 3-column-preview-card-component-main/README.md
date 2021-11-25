@@ -36,6 +36,6 @@ Aqui uma comparação do projeto original com o meu (Original x Meu):
 <p><b>💻Obrigado por ler!💻</p>
  
  
- Link: https://caiosev.github.io/FrontEnd-Mentor/nft-preview-card-component-main/
+ Link: https://caiosev.github.io/FrontEnd-Mentor/3-column-preview-card-component-main/
 </div>
 
