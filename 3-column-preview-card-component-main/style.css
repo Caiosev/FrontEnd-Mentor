@@ -18,8 +18,7 @@ section{
     margin-bottom: 20px;
 }
 .card{
-    background-color: aqua;
-    
+    background-color: aqua; 
     width: 90vw;
     display: flex;
     flex-direction: column;
@@ -137,6 +136,7 @@ button{
     outline: none;
     background-color: hsl(0, 0%, 95%);
     width: 150px;
+    font-weight: 700;
     
 }
 
@@ -154,4 +154,140 @@ button{
 
 .attribution{
     color: black;
+}
+
+@media (min-width:1440px){
+
+    body{
+      flex-direction: column;
+    }
+    section{
+        padding: 10%;
+    }
+    .card{ 
+       flex-direction: row;
+       height: 65vh;
+       width: 70vw;
+    }
+
+    .coluna-1{
+        background-color:hsl(31, 77%, 52%) ;
+        padding: 50px; 
+        width: 100%;
+    }
+
+    .imagem-1{
+        width: 70px;
+        margin-top: 20px;
+        margin-bottom: 30px;
+    }
+    
+    
+    .texto-1 h2{
+        font-size: 45px;
+        margin-bottom: 20px;
+    }
+    
+    .texto-1 h3{
+        font-size: 20px;
+        margin-bottom: 110px;
+        line-height: 30px;
+    }
+
+    
+    .coluna-2{
+       
+        padding: 50px; 
+        width: 100%;
+    }
+
+    .imagem-2{
+        width: 70px;
+        margin-top: 20px;
+        margin-bottom: 30px;
+    }
+    
+    
+    .texto-2 h2{
+        font-size: 45px;
+        margin-bottom: 20px;
+    }
+    
+    .texto-2 h3{
+        font-size: 15px;
+        margin-bottom: 110px;
+        line-height: 30px;
+    }
+
+    .coluna-2{
+       
+        padding: 50px; 
+        width: 100%;
+    }
+
+    .imagem-2{
+        width: 70px;
+        margin-top: 20px;
+        margin-bottom: 30px;
+    }
+    
+    
+    .texto-2 h2{
+        font-size: 45px;
+        margin-bottom: 20px;
+    }
+    
+    .texto-2 h3{
+        font-size: 15px;
+        margin-bottom: 110px;
+        line-height: 30px;
+    }
+
+    .coluna-3{
+       
+        padding: 50px; 
+        width: 100%;
+    }
+
+    .imagem-3{
+        width: 70px;
+        margin-top: 20px;
+        margin-bottom: 30px;
+    }
+    
+    
+    .texto-3 h2{
+        font-size: 45px;
+        margin-bottom: 20px;
+    }
+    
+    .texto-3 h3{
+        font-size: 15px;
+        margin-bottom: 110px;
+        line-height: 30px;
+    }
+
+    .coluna-3{
+       
+        padding: 50px; 
+        width: 100%;
+    }
+
+    .imagem-3{
+        width: 70px;
+        margin-top: 20px;
+        margin-bottom: 30px;
+    }
+    
+    
+    .texto-3 h2{
+        font-size: 45px;
+        margin-bottom: 20px;
+    }
+    
+    .texto-3 h3{
+        font-size: 15px;
+        margin-bottom: 110px;
+        line-height: 30px;
+    }
 }
