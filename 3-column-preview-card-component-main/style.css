@@ -137,11 +137,13 @@ button{
     background-color: hsl(0, 0%, 95%);
     width: 150px;
     font-weight: 700;
+    cursor: pointer;
+    border: solid 2px hsl(0, 0%, 95%);
     
 }
 
 #botao-1{
-    color:hsl(31, 77%, 52%) ; ;
+    color:hsl(31, 77%, 52%);
 }
 
 #botao-2{
@@ -154,6 +156,21 @@ button{
 
 .attribution{
     color: black;
+}
+
+#botao-1:active{
+    background-color: hsl(31, 77%, 52%) ;
+    color: white;
+}
+
+#botao-2:active{
+    background-color: hsl(184, 100%, 22%);;
+    color: white;
+}
+
+#botao-3:active{
+    background-color: hsl(179, 100%, 13%);
+    color: white;
 }
 
 @media (min-width:1440px){
