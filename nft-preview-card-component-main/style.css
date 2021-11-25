@@ -21,6 +21,7 @@ section{
    text-align: left;
    padding: 30px;
    border-radius: 20px;
+   box-shadow: 10px 10px 20px 20px hsl(215, 51%, 10%);
    
 }
 
@@ -148,4 +149,10 @@ section{
     color:hsl(178, 100%, 50%);
     cursor: pointer;
     transition: all 0.2s ease-in-out;   
+}
+
+@media(min-width:1440px){
+    .card{
+        width: 20vw ;
+    }
 }
