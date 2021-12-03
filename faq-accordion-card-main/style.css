@@ -25,48 +25,64 @@ body{
     font-family:  'Kumbh Sans', sans-serif;
     text-decoration: none;
     font-size: 1.8rem;
-    background-image: radial-gradient(var(--gradient-violet),var(--gradient-blue));
+    background-image: linear-gradient(var(--gradient-violet),var(--gradient-blue));
 }
 
 .main{
     height: 100vh;
 }
 
+.box{
+    display: none;
+}
+
 .card{
     background-color: white;
     border-radius: 2rem;
     max-width: 33rem;
-    margin: 5rem auto 8rem auto;
+    margin: 15rem auto 8rem auto;
+    background-image: url(images/bg-pattern-mobile.svg);
+    background: cover;
+    background-repeat: no-repeat;
+    background-position: center 0%;
+    background-size: 24rem;
+   
     
 }
 
-
+.card_imagem{
+    position: relative;
+}
 
 .card_imagem img{
     width: 100%;
     height: auto;
     max-width: 24rem;
+    margin: -12rem auto;
+    position: absolute;
+    top: 1rem;
+    left: 50%;
+    transform: translateX(-50%);
 
 }
 
 .card_faq{
+  padding-top: 13rem;
 
 }
 
 
 
-@media (min-width: 56em){
+@media (min-width: 56em){ /*Desktop*/
     .card{
+        position: relative;
         display: flex;
         margin: 17rem auto;
         max-width: 100rem;
         background-size: 40%;
         background-image: url(images/bg-pattern-desktop.svg);
-        background: cover;
-        background-repeat: no-repeat;
         background-position: -10% center;
        
-        
     }
 
     .card_imagem,
@@ -80,6 +96,7 @@ body{
         display: flex;
         align-items: center;
         overflow: hidden;
+    
     }
 
     .card_imagem img{
@@ -87,6 +104,20 @@ body{
         height: auto;
         max-width: 50rem;
         transform: translateX(-5rem);
-    
+        position: static;
+    }
+    .box{
+        display: flex;
+        height: 100%;
+        flex-direction: column;
+        justify-content: center;
+        position: absolute;
+        z-index: 1;
+        top: 4rem;
+        left: -9rem;
+    }
+
+    .card_faq{
+        padding-top: 0;
     }
 }
