@@ -108,6 +108,8 @@ h1,h2,h3{
     background-position: center center;
     width: 1.6rem;
     height: 1.4rem;
+    border: none;
+    transition: transform 400ms ease-in-out;
     
 }
 
@@ -122,6 +124,33 @@ h1,h2,h3{
     border-bottom: 2px solid var(--divider-gblue);
     
 }
+
+.accordion_pergunta:hover{
+    cursor: pointer;
+}
+
+.accordion_pergunta.show{
+    font-weight: 700;
+   
+}
+
+.accordion_pergunta.show::after{
+    transform: rotate(180deg);
+   
+}
+
+.accordion_collapase.hidden{
+    display: none;
+}
+
+.accordion_collapase.collapsing{
+
+}
+
+.accordion_collapase.show{
+    display: block;
+}
+
 
 
 @media (min-width: 56em){ /*Desktop*/
