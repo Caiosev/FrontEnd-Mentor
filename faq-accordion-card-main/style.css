@@ -128,6 +128,7 @@ h1,h2,h3{
 
 .accordion_pergunta:hover{
     cursor: pointer;
+    color: var(--text-red) ;
 }
 
 .accordion_pergunta.show{
@@ -202,7 +203,7 @@ h1,h2,h3{
         justify-content: center;
         position: absolute;
         z-index: 1;
-        top: 4rem;
+        top: 5rem;
         left: -9rem;
     }
 
