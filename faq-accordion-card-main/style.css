@@ -44,6 +44,7 @@ h1,h2,h3{
     background-color: white;
     border-radius: 2rem;
     max-width: 33rem;
+    
     margin: 15rem auto 8rem auto;
     background-image: url(images/bg-pattern-mobile.svg);
     background: cover;
@@ -139,19 +140,26 @@ h1,h2,h3{
    
 }
 
-.accordion_collapase.hidden{
+.accordion_collapse.hidden{
     display: none;
 }
 
-.accordion_collapase.collapsing{
-
+.accordion_collapse{
+    transition: height 400ms ease;
+}
+.accordion_collapse.collapsing{
+    height: 0;
+    overflow: hidden;
+    
 }
 
-.accordion_collapase.show{
+.accordion_collapse.show{
     display: block;
 }
 
-
+.attribution{
+    background-color: white;
+}
 
 @media (min-width: 56em){ /*Desktop*/
     .card{
@@ -162,6 +170,7 @@ h1,h2,h3{
         background-size: 40%;
         background-image: url(images/bg-pattern-desktop.svg);
         background-position: -10% center;
+        height: 61%;
        
     }
 
