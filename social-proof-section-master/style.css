@@ -1,0 +1,70 @@
+:root{
+    --very-Dark-Magenta:hsl(300, 43%, 22%);
+    --soft-Pink: hsl(333, 80%, 67%);
+    --dark-Grayish-Magenta: hsl(303, 10%, 53%);
+    --light-Grayish-Magenta: hsl(300, 24%, 96%);
+    --white: hsl(0, 0%, 100%);
+}
+
+html{
+    box-sizing: border-box;
+    font-size: 62.5%; /*1rem = 10px*/
+}
+
+*{
+    margin:0;
+    padding: 0;
+    font-family:'Spartan', sans-serif;
+}
+.main{
+    height: 100vh;
+}
+h2{
+    color: var(--very-Dark-Magenta);
+    font-weight: 700;
+}
+h3{
+    color: var(--light-Grayish-Magenta);
+    font-weight: 400;
+}
+.texto-estrela{
+    display: flex;
+    align-items: center;
+}
+
+.estrela-1{
+    background-color:var(--light-Grayish-Magenta);
+    display: flex;
+    width: 45rem;
+    height: 5rem;
+    align-items: flex-end;
+}
+.estrela-2{
+    background-color:var(--light-Grayish-Magenta);
+    display: flex;
+    height: 5rem;
+    width: 45rem;
+}
+.estrela-3{
+    background-color:var(--light-Grayish-Magenta);
+    display: flex;
+    height: 5rem;
+    width: 45rem;
+}
+
+
+@media(min-width:56em){
+    .texto-estrela{
+        display: flex;
+        width: 77%;
+        background-color: black;
+    }
+    .texto{
+        width: 40%;
+       
+    }
+    .texto h2{
+     
+        font-size: 8rem;
+    }
+}
