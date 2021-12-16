@@ -1,0 +1,93 @@
+:root{
+    --veryDarkGrayishBlue: hsl(217, 19%, 35%);
+    --desaturatedDarkBlue: hsl(214, 17%, 51%);
+    --grayishBlue: hsl(212, 23%, 69%);
+    --lightGrayishBlue: hsl(210, 13%, 85%);
+    
+}
+html{
+    box-sizing: border-box;
+    font-size: 62.5%;
+}
+*{
+    margin: 0;
+    padding: 0;
+    font-family:'Manrope', sans-serif;
+    
+    
+}
+body{
+    background-color: var(--desaturatedDarkBlue);
+      
+}
+.main{
+    
+}
+.card{
+    background-color: var(--lightGrayishBlue);
+    height: 51rem;
+    width: 33rem;
+    margin-top: 7rem;
+    margin-right: 2rem;
+    margin-left: 2rem;
+    border-radius: 10px;
+    overflow: hidden;
+   
+}
+.imagem{
+    width: 33rem;
+    height: 20rem;
+   
+}
+.imagem img{
+    width: 100%;
+    height: 100%;
+}
+
+.texto h2{
+    font-size: 1.6rem;
+    font-weight: 700;
+    width: 26rem;
+    height: 6rem;
+    margin: 4rem 4rem 2rem 3rem;
+
+}
+
+.texto h3{
+    font-size: 1.3rem;
+    font-weight: 500;
+    width: 26rem;
+    height: 9rem;
+    margin: 0 4rem 4rem 3rem;
+}
+.perfil{
+    display: flex;
+}
+.foto img{
+    width: 4rem;
+    border-radius: 20px;
+    margin-left: 3rem;
+}
+
+.nome-data{
+    display: flex; 
+    flex-direction: column;
+    justify-content: center;
+    margin-left: 1rem;
+    margin-right: 6rem;
+    font-size: 1.3rem;
+}
+.nome-data h5{
+    font-weight: 500;
+}
+.btn{
+    display: flex; 
+    flex-direction: column;
+    justify-content: center;
+}
+.btn img{
+    background-color: var(--veryDarkGrayishBlue);
+    padding: 1rem;
+    border-radius: 20px;
+    margin-right: 4rem;
+}
