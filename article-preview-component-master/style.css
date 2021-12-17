@@ -21,22 +21,24 @@ body{
       
 }
 .main{
+    display: flex;
+    justify-content: center;
     
 }
 .card{
     background-color: var(--lightGrayishBlue);
-    height: 51rem;
-    width: 33rem;
-    margin-top: 7rem;
-    margin-right: 2rem;
-    margin-left: 2rem;
+    height: 76vh;
+    width: 88vw;
+    margin-top: 10vh;
+    margin-right: 5vw;
+    margin-left: 5vw;
     border-radius: 10px;
     overflow: hidden;
    
 }
 .imagem{
-    width: 33rem;
-    height: 20rem;
+    width: 88vw;
+    height: 30vh;
    
 }
 .imagem img{
@@ -47,18 +49,18 @@ body{
 .texto h2{
     font-size: 1.6rem;
     font-weight: 700;
-    width: 26rem;
-    height: 6rem;
-    margin: 4rem 4rem 2rem 3rem;
+    width: 69vw;
+    height: 9vh;
+    margin: 4.5vh 4.5vh 2.5vh 4.5vh;
 
 }
 
 .texto h3{
     font-size: 1.3rem;
     font-weight: 500;
-    width: 26rem;
-    height: 9rem;
-    margin: 0 4rem 4rem 3rem;
+    width: 69vw;
+    height: 14vh;
+    margin: 0 4.5vh 4.5vh 4.5vh;
 }
 .perfil{
     display: flex;
@@ -74,8 +76,9 @@ body{
     flex-direction: column;
     justify-content: center;
     margin-left: 1rem;
-    margin-right: 6rem;
+    margin-right: 16vw;
     font-size: 1.3rem;
+   
 }
 .nome-data h5{
     font-weight: 500;
@@ -86,8 +89,35 @@ body{
     justify-content: center;
 }
 .btn img{
-    background-color: var(--veryDarkGrayishBlue);
+    background-color: var(--grayishBlue);
     padding: 1rem;
     border-radius: 20px;
     margin-right: 4rem;
+}
+
+@media (min-width:64em){
+    .card{
+        width: 50vw;
+        height: 33vh;
+        margin: 18vw auto;
+        display: flex;
+        flex-direction: row;
+    }
+    .imagem{
+        width: 20vw;
+        height: 35vh;
+    }
+    .texto h2{
+        width: 24vw;
+        height: 9vh;
+    }
+    .texto h3{
+        width: 24vw;
+        height: 6vh;
+    }
+    .nome-data{
+        margin-right: 11vw;
+        height: 5vh;
+        width: 10vw;
+    }
 }
