@@ -17,7 +17,7 @@ html{
     
 }
 body{
-    background-color: var(--desaturatedDarkBlue);
+    background-color: var(--lightGrayishBlue);
       
 }
 
@@ -27,7 +27,7 @@ body{
     
 }
 .card{
-    background-color: var(--lightGrayishBlue);
+    background-color: white;
     height: 51rem;
     width: 33rem;
     margin-top: 7.5rem;
@@ -94,7 +94,7 @@ body{
     justify-content: center;
 }
 .btn img{
-    background-color: var(--grayishBlue);
+    background-color: var(--lightGrayishBlue);
     padding: 1rem;
     border-radius: 20px;
     margin-right: 4rem;
@@ -110,11 +110,12 @@ body{
         height: 28rem;
         display: flex;
         flex-direction: row;
+        margin:0;
         
     }
     .imagem{
         height: 100%;
-        width: 29rem;
+        width: 29.3rem;
     }
 
     .texto h2{
