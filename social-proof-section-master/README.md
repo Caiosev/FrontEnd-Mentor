@@ -2,11 +2,11 @@
 
 ## Bem-Vindo! 👋
 
-Esse foi meu segundo desafio do FrontEnd Mentor feito, agora mais aquecido, as coisas estão ficando mais fáceis. 
+Esse foi meu sétimo desafio do FrontEnd Mentor feito.
 
 ## O Desafio
 
-Neste projeto o meu maior desafio foi a div "plano", fique um tempo emperrado pois nao conseguia alinhar tudo, fiz uma pesquisa e encontrei a solução de separá-los em duas partes, depois disso foi tudo tranquilo
+Neste projeto não tive grandes dificuldades, apesar de não ter conseguido acertar 100% a fonte.
 ## O Projeto
 Aqui uma comparação do projeto original com o meu (Original x Meu):
 
