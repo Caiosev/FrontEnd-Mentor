@@ -2,7 +2,7 @@
 
 ## Bem-Vindo! 👋
 
-Esse foi meu quinto desafio do FrontEnd Mentor feito e definitivamente o mais difícil até agora.
+Esse foi meu sexto desafio do FrontEnd Mentor feito e definitivamente o mais difícil até agora.
 
 ## O Desafio
 
