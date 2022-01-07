@@ -13,6 +13,7 @@ html{
 }
 body{
     min-height: 812px;
+    background:linear-gradient(135deg, hsl(0, 0%, 100%), hsl(0, 100%, 98%));
 }
 header{
     width: 100%;
@@ -110,4 +111,90 @@ footer{
     width: 100%;
     -ms-flex-item-align: end;
     align-self: flex-end;
+}
+
+@media (min-width:1440px){
+
+    header{
+        height: 100px;
+        width: 57%;
+        position: absolute;
+    }
+    header img{
+        margin-left: 170px;
+        margin-top: 70px;
+        width: 160px;
+        height: 35px;
+
+    }
+   
+    .main{
+        display: flex;
+        flex-direction: row-reverse;
+        
+    }
+    .imagem{
+        width:627px;
+        height: 100vh;
+       
+    }
+    #hero-mobile{
+        display: none;
+    }
+    .imagem img{
+        
+        height: 100%;
+    }
+    .text{
+       
+        margin-top: 0px;
+        background: url(images/bg-pattern-desktop.svg);
+        background-size: cover;
+        width: 830px;
+        height: 800px;
+       
+        
+    }
+    .coming{
+        align-items: flex-start;
+        margin-bottom: 40px;
+    }
+    .titulo{
+        margin-top: 240px;
+        margin-left: 170px;
+    }
+    .titulo h1{
+       margin: 0;
+       font-size: 45px;
+       letter-spacing: 28px;
+       margin-bottom: 20px;
+       width: 260px;
+    }
+    .text h2{
+        font-size:47px;
+        letter-spacing: 30px;
+        margin-bottom: 20px;
+        width: 360px;
+      
+    }
+    
+    .text h3{
+        align-items: flex-start;
+        text-align: left;
+        margin: 0;
+        font-size: 16px;
+        line-height: 28px;
+        width: 425px;
+        
+        margin-left: 170px;
+    }
+    .send-email{
+        justify-content: flex-start;
+        margin-top: 50px;
+    
+        margin-left: 170px;
+    }
+    .send-email input{
+        width: 370px;
+    }
 }
