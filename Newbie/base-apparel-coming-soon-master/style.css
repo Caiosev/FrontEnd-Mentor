@@ -108,6 +108,23 @@ header img{
     height: 20px;
 
 }
+.btn{
+    cursor: pointer;
+}
+#error-icon{
+    position: absolute;
+    top: 77%;
+    left: 34%;
+    display: none;
+  
+}
+.send-email h5{
+    position: absolute;
+    margin-top: 65px;
+    margin-left: 23px;
+    color: var(---DesaturatedRed);
+    display: none;
+}
 footer{
 
     bottom: 0;
