@@ -117,6 +117,9 @@ footer{
     margin-top: 50px;
 }
 @media (min-width:1440px){
+    body{
+        background-image: url(images/bg-intro-desktop.png);
+    }
     main{
         display: grid;
         grid-template-columns: 1fr 1fr;
@@ -128,19 +131,45 @@ footer{
     .text{
         grid-area: t;
         align-self: center;
-       
-        
+    }
+    .text h1{
+        width: 415px;
+        height: 120px;
+        font-size: 45px;
+        margin-bottom: 40px;
+        text-align: left;
+
+    }
+    .text h2{
+        text-align: left;
+        margin-left: 22%;
+        width: 500px;
+        height: 70px;
     }
     .try-btn{
         grid-area: b;
         align-self: flex-end;
         margin:0;
-    
-        
+        justify-content: left;
+    }
+    #try-btn{
+        width: 540px;
+        height: 60px;
     }
     form{
         grid-area: f;
         margin-top: 10px;
-        
+        width: 540px;
+        height: 475px;
+        margin: 0;
+    }
+    form input{
+        width: 460px;
+    }
+    #claim{
+        width: 460px;
+    }
+    h3{
+        width: 365px;
     }
 }
