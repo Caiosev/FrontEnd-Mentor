@@ -116,3 +116,31 @@ h3 span{
 footer{
     margin-top: 50px;
 }
+@media (min-width:1440px){
+    main{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: 20vh 80vh;
+        grid-template-areas:"t b"
+                            "t f" ;
+        
+    }
+    .text{
+        grid-area: t;
+        align-self: center;
+       
+        
+    }
+    .try-btn{
+        grid-area: b;
+        align-self: flex-end;
+        margin:0;
+    
+        
+    }
+    form{
+        grid-area: f;
+        margin-top: 10px;
+        
+    }
+}
