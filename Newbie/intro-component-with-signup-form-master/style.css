@@ -82,6 +82,7 @@ form input{
     border-radius: 5px;
     margin: 25px auto 0 auto;
     border: 1px solid var(---grayishBlue);
+    padding-left: 3px;
     
 }
 form input::placeholder{
@@ -116,6 +117,62 @@ h3 span{
 footer{
     margin-top: 50px;
 }
+
+.error{
+    position: absolute;
+    color: var(---red);
+    font-size: 10px;
+    font-style: italic;
+}
+#erro-nome{
+    top: 73%;
+    left: 50%;
+}
+#erro-sobre{
+    top: 82%;
+    left: 50%;
+}
+#erro-email{
+    top: 91%;
+    left: 50%;
+}
+#erro-pass{
+    top: 100%;
+    left: 50%;
+}
+.error-logo{
+    width: 25px;
+    height: 25px;
+    background-color: var(---red);
+    border-radius: 25px;
+    position: absolute;
+}
+#img-nome{
+    top: 68%;
+    left: 80%;
+}
+#img-sobre{
+    top: 77%;
+    left: 80%;
+}
+#img-email{
+    top: 86%;
+    left: 80%;
+}
+#img-pass{
+    top: 95%;
+    left: 80%;
+}
+.error{
+    display: none;
+}
+.error-input{
+   border : 2px solid var(---red);
+}
+.show{
+    display: block;
+}
+
 @media (min-width:1440px){
     body{
         background-image: url(images/bg-intro-desktop.png);
@@ -171,18 +228,16 @@ footer{
         font-weight: 600;
         height: 50px;
     }
+    form input:focus{
+        border: 2px solid black;
+    }
     #claim{
         width: 482px;
     }
     h3{
         width: 365px;
     }
-    .error{
-        position: absolute;
-        color: var(---red);
-        font-size: 10px;
-        font-style: italic;
-    }
+   
     #erro-nome{
         top: 29.5%;
         left: 75.5%;
@@ -199,13 +254,21 @@ footer{
         top: 59%;
         left: 75.5%;
     }
-   .error{
-       display: none;
-   }
-   .error-input{
-      border : 2px solid var(---red);
-   }
-   .show{
-       display: block;
-   }
+    #img-nome{
+        top: 25%;
+        left: 82%;
+    }
+    #img-sobre{
+        top: 34.5%;
+        left: 82%;
+    }
+    #img-email{
+        top: 44.5%;
+        left: 82%;
+    }
+    #img-pass{
+        top: 54%;
+        left: 82%;
+    }
+   
 }
