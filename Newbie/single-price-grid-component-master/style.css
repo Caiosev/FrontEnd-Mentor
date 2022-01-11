@@ -1,0 +1,127 @@
+html{
+    box-sizing: border-box;
+}
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Karla', sans-serif;
+}
+:root{
+    ---Cyan: hsl(179, 62%, 43%);
+    ---BrightYellow: hsl(71, 73%, 54%);
+
+    ---LightGray: hsl(204, 43%, 93%);
+    ---GrayishBlue: hsl(218, 22%, 67%);
+}
+body{
+    background-color: var(---LightGray);
+    color: white;
+}
+main{
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 30vh 26vh 26vh;
+    margin-top: 8vh;
+    width: 311px;
+    margin: 8vh auto;
+
+}
+.join{
+    background-color:white;
+    color: black;
+    border-radius: 10px 10px 0 0 ;
+}
+.join h1{
+    font-size: 18px;
+    color: var(---Cyan);
+    margin: 35px 0 35px 25px;
+}
+.join h2{
+    font-size: 15px;
+    margin: 0 70px 30px 25px;
+    color: var(---BrightYellow);
+}
+.join h3{
+    font-size: 15px;
+    font-weight: 400;
+    margin: 0 25px;
+    color: var(---GrayishBlue);
+}
+.sub{
+    background-color: #2BB3B1;
+}
+.sub h1{
+    color: white;
+    margin: 30px 0 20px 25px;
+    font-size: 15px;
+}
+.sub h2{
+    margin: 0 25px;
+    font-size: 30px;
+}
+.sub h2 span{
+    font-size: 12px;
+    font-weight: 400;
+    color: var(---LightGray);
+}
+.sub h3{
+    margin: 2px 25px 30px;
+    font-size: 15px;
+    font-weight: 400;
+}
+.sub button{
+    width: 260px;
+    height: 50px;
+    margin: 0 auto;
+    background-color: var(---BrightYellow);
+    border: 0;
+    border-radius: 5px;
+    color: white;
+    font-weight: 700;
+    margin: 0 24px;
+    font-size: 14px;
+}
+.why{
+    background-color: #4ABEBD;
+    border-radius: 0px 0px 10px 10px ;
+}
+.why h1{
+    margin: 27px 23px;
+    font-size: 17px;
+}
+.why h3{
+    font-weight: 400;
+    color: var(---LightGray);
+    margin-left: 24px;
+    font-size: 13px;
+    width: 185px;
+    line-height: 20px;
+
+}
+footer{
+    color: black;
+}
+@media(min-width:1440px){
+
+    main{
+        width: 635px;
+        height: 475px;
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: 45%;
+        grid-template-areas: "j j"
+                              "m w";
+        margin: 10% auto;
+    }
+    .join{
+        grid-area: j;
+    }
+    .join h3{
+        width: 515px;
+    }
+    .why{
+        border-radius: 0 0 15px 0;
+    }
+    .sub{
+        border-radius: 0 0 0 15px;
+    }
+}
