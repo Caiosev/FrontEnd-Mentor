@@ -31,16 +31,19 @@
     </div>
     <form action="">
       
-        <input type="text" placeholder="First Name">
-        <input type="text" placeholder="Last Name">
-        <input type="text" placeholder="Email Adress">
-        <input type="text" placeholder="Password">
+        <input type="text" placeholder="First Name" id="nome">
+        <input type="text" placeholder="Last Name" id="sobrenome">
+        <input type="text" placeholder="Email Adress" id="email">
+        <input type="text" placeholder="Password" id="senha">
     
-      <button id="claim">CLAIM YOUR FREE TRIAL</button>
+      <button id="claim" type="button">CLAIM YOUR FREE TRIAL</button>
       <h3>By clicking the button, you are agreeing to our <span>Terms and Services</span></h3>
     </form>
 
-
+      <div class="error" id="erro-nome">First Name cannot be empty</div>
+      <div class="error" id="erro-sobre">Last Name cannot be empty</div>
+      <div class="error" id="erro-email">Looks like this is not an email</div>
+      <div class="error" id="erro-pass">Password cannot be empty</div>
   </main>
  
   <footer>
@@ -50,5 +53,6 @@
     </p>
   </footer>
 </body>
+<script src="script.js"></script>
 </html>
 

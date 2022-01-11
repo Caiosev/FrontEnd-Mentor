@@ -89,7 +89,7 @@ form input::placeholder{
     font-weight: 600;
 }
 #claim{
-    margin-top: 15px;
+    margin-top: 30px;
     width: 278px;
     height: 54px;
     color: white;
@@ -131,6 +131,7 @@ footer{
     .text{
         grid-area: t;
         align-self: center;
+        margin-top: -150px;
     }
     .text h1{
         width: 415px;
@@ -140,6 +141,7 @@ footer{
         text-align: left;
 
     }
+
     .text h2{
         text-align: left;
         margin-left: 22%;
@@ -165,11 +167,45 @@ footer{
     }
     form input{
         width: 460px;
+        padding-left: 20px;
+        font-weight: 600;
+        height: 50px;
     }
     #claim{
-        width: 460px;
+        width: 482px;
     }
     h3{
         width: 365px;
     }
+    .error{
+        position: absolute;
+        color: var(---red);
+        font-size: 10px;
+        font-style: italic;
+    }
+    #erro-nome{
+        top: 29.5%;
+        left: 75.5%;
+    }
+    #erro-sobre{
+        top: 39.5%;
+        left: 75.5%;
+    }
+    #erro-email{
+        top: 49.5%;
+        left: 75.5%;
+    }
+    #erro-pass{
+        top: 59%;
+        left: 75.5%;
+    }
+   .error{
+       display: none;
+   }
+   .error-input{
+      border : 2px solid var(---red);
+   }
+   .show{
+       display: block;
+   }
 }
