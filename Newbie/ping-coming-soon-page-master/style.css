@@ -110,3 +110,9 @@ h3{
 .attribution{
     text-align: center;
 }
+
+#error{
+    color: red;
+    font-size: 19px;
+    font-style: italic;
+}
