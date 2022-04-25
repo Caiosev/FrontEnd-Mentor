@@ -101,3 +101,9 @@ button:hover{
 a{
     text-decoration: none;
 }
+
+@media screen and (min-width:1000px) {
+    body{
+        grid-template-columns: repeat(3,33vw);
+    }
+}
