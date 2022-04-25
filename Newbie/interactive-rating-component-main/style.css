@@ -66,6 +66,12 @@ h2{
     justify-content: center;
     background-color: #262F38;
     border-radius: 50%;
+    transition: 0.5s;
+    cursor: pointer;
+}
+
+.note:hover{
+    background-color: #7C8898;
 }
 
 button{
@@ -83,6 +89,15 @@ button{
     border-radius: 30px;
 }
 
+button:hover{
+    background-color: #fff;
+    color: #F97614;
+}
+
 .select {
     background-color: #F97614 !important; 
+}
+
+a{
+    text-decoration: none;
 }
