@@ -53,3 +53,11 @@ h2{
     grid-row: 3/4;
     grid-column: 2/3;
 }
+
+@media (min-width:900px){
+    body{
+        grid-template-columns: 20vw 60vw 20vw;
+        grid-template-rows: 20vh 60vh 20vh;
+        justify-items: center;
+    }
+}
