@@ -1,0 +1,94 @@
+body{
+    margin: 0;
+    padding: 0;
+    background-image: url(images/bg-mobile.svg);
+    background-repeat: no-repeat;
+    background-size: 100vw;
+    background-color: hsl(257, 40%, 49%);
+    color: white;
+    display: flex;
+    flex-direction: column;
+    font-family: 'Poppins', sans-serif;
+}
+main{
+    text-align: center;
+}
+header{
+    width: 100vw;
+    height: 9vh;
+}
+header img{
+    width: 32vw;
+    height: 3vh;
+    margin-top: 4vh;
+    margin-left: 4vw;
+
+}
+.mockup{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 5vh;
+    margin-bottom: 9vh;
+   
+}
+
+.mockup img{
+    width: 77vw;
+    height: 29vh;
+   
+}
+
+.text-btn{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.text{
+    width: 81vw;
+    height: 37vh;
+}
+h1{
+    font-size: 25px;
+}
+h2{
+    font-size: 20px;
+    font-weight: 400;
+}
+
+button{
+    margin-top: 60px;
+    background-color: white;
+    border: none;
+    padding: 10px 100px;
+    border-radius: 90px;
+    font-size: 20px;
+    color: hsl(257, 40%, 49%);
+    margin-bottom: 120px;
+    box-shadow: 3px 4px 16px -1px rgba(0, 0, 0, 0.342);
+}
+
+.socials{
+    font-size: 20px;
+    display: flex;
+    justify-content: center;
+}
+.fa-brands {
+    padding: 15px;
+    border: 1px solid white;
+    margin-left: 8px;
+    border-radius: 50%;
+}
+
+.attribution{
+    color: white;
+}
+
+a{
+    text-decoration: none;
+    color: white;
+}
+
+@media (min-width:1000px) {
+  
+}
