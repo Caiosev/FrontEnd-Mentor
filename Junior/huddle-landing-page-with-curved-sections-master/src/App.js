@@ -9,8 +9,10 @@ import ilustratorGrowTogether from './images/illustration-grow-together.svg'
 import ilustratorYourUsers from './images/illustration-your-users.svg'
 import ilustratorFlowingCon from './images/illustration-flowing-conversation.svg'
 import Footer from "./components/Footer/Footer";
-
-
+import bgTopSec1 from './images/bg-section-top-mobile-1.svg'
+import bgBottomSec1 from './images/bg-section-bottom-mobile-1.svg'
+import bgTopSec2 from './images/bg-section-top-mobile-2.svg'
+import bgBottomSec2 from './images/bg-section-bottom-mobile-2.svg'
 function App() {
 
 
@@ -33,9 +35,9 @@ function App() {
      <Mockup />
      <IconComunities icon={iconcom} num={'1.4k+'} p={'Communities Formed'} />
      <IconComunities icon={iconmes} num={'2.7m+'} p={'Messages Sent'} />
-     <IlustratorComponent image={ilustratorGrowTogether} titulo={ilustratorTitulo1} p={ilustratorText1}/>
+     <IlustratorComponent image={ilustratorGrowTogether} titulo={ilustratorTitulo1} p={ilustratorText1} bgTop={bgTopSec1} bgBottom={bgBottomSec1}/>
      <IlustratorComponent image={ilustratorFlowingCon} titulo={ilustratorTitulo2} p={ilustratorText2}/>
-     <IlustratorComponent image={ilustratorYourUsers} titulo={ilustratorTitulo3} p={ilustratorText3}/>
+     <IlustratorComponent image={ilustratorYourUsers} titulo={ilustratorTitulo3} p={ilustratorText3} bgTop={bgTopSec2} bgBottom={bgBottomSec2}/>
      <Titulo titulo={'Ready to Build Your Community?'}  btnText={btnText1} btn/>
      <Footer />
     </div>
